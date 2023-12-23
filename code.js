@@ -89,14 +89,14 @@ const rock = document.querySelector('#rock');
 const paper = document.querySelector('#paper');
 const scissors = document.querySelector('#scissors');
 
-computer = 0;
-player = 'none';
-final = 'none';
-sum = 0;
+let computer = 0;
+let player = 'none';
+let final = 'none';
+let sum = 0;
 
-pwins = 0;
-cwins = 0;
-ties = 0;
+let pwins = 0;
+let cwins = 0;
+let ties = 0;
 
 const win = document.querySelector('#win')
 const result = document.createElement('p');
@@ -138,7 +138,7 @@ rock.addEventListener('click', () => {
             ender.textContent = 'player wins match!';
         } else if (cwins > pwins && cwins > ties){
             ender.textContent = 'computer wins match!';
-        } else if (ties >= pwins && ties > cwins){
+        } else if (ties > pwins && ties > cwins){
             ender.textContent = "It's a tie match!";
         }
         ending.appendChild(ender);
@@ -175,7 +175,7 @@ paper.addEventListener('click', () => {
             ender.textContent = 'player wins match!';
         } else if (cwins > pwins && cwins > ties){
             ender.textContent = 'computer wins match!';
-        } else if (ties >= pwins && ties > cwins){
+        } else if (ties > pwins && ties > cwins){
             ender.textContent = "It's a tie match!";
         }
         ending.appendChild(ender);
@@ -212,7 +212,7 @@ scissors.addEventListener('click', () => {
             ender.textContent = 'player wins match!';
         } else if (cwins > pwins && cwins > ties){
             ender.textContent = 'computer wins match!';
-        } else if (ties >= pwins && ties > cwins){
+        } else if (ties > pwins && ties > cwins){
             ender.textContent = "It's a tie match!";
         }
         ending.appendChild(ender);
