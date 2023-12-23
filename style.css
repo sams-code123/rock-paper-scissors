@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(30, 30, 30);
+}
+
+.back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 99%;
+    background-color: rgb(30, 30, 30);
+}
+
+.section1 {
+    margin-top: 1rem;
+    width: 50%;
+    background-color: rgb(87, 199, 143);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: .3rem;
+}
+
+.comp {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(71, 124, 238);
+    left: 17rem;
+    bottom: 2.1rem;
+    border-radius: .5rem;
+    padding-top: 0rem;
+    height: 3.5rem;
+    padding-left: .2rem;
+    padding-right: .2rem;
+}
+
+h1 {
+    display: flex;
+    font-size: 3rem;
+    color: white;
+}
+
+h2 {
+    display: flex;
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+.section2 {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+    gap: 4rem;
+
+}
+
+.section2 button {
+    background-color: rgb(71, 124, 238);
+    color: aliceblue;
+    width: 15%;
+    font-size: 2rem;
+    border-radius: .6rem;
+    border: none;
+}
+
+.section3 {
+    margin-top: .1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+    gap: 11rem;
+    
+}
+
+.section3 img {
+    display: flex;
+    height: 7rem;
+}
+
+.section4 {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+}
+
+.winner {
+    background-color: rgb(87, 199, 143);
+    color: white;
+    width: 20%;
+    font-size: 2rem;
+    border-radius: .6rem;
+    border: none;
+    text-align: center;
+}
+
+.section5 {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+}
+
+.totals {
+    background-color: rgb(71, 124, 238);
+    color: white;
+    width: 15%;
+    font-size: 2rem;
+    border-radius: .6rem;
+    border: none;
+    text-align: center;
+    width: 20%;
+}
+
