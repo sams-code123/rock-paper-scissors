@@ -134,11 +134,11 @@ rock.addEventListener('click', () => {
     if (sum >= 5) {
         ender.classList.add('ender');
 
-        if (pwins > cwins && pwins > ties){
+        if (pwins > cwins){
             ender.textContent = 'player wins match!';
-        } else if (cwins > pwins && cwins > ties){
+        } else if (cwins > pwins){
             ender.textContent = 'computer wins match!';
-        } else if (ties > pwins && ties > cwins){
+        } else {
             ender.textContent = "It's a tie match!";
         }
         ending.appendChild(ender);
@@ -171,11 +171,11 @@ paper.addEventListener('click', () => {
     if (sum >= 5) {
         ender.classList.add('ender');
 
-        if (pwins > cwins && pwins > ties){
+        if (pwins > cwins){
             ender.textContent = 'player wins match!';
-        } else if (cwins > pwins && cwins > ties){
+        } else if (cwins > pwins){
             ender.textContent = 'computer wins match!';
-        } else if (ties > pwins && ties > cwins){
+        } else {
             ender.textContent = "It's a tie match!";
         }
         ending.appendChild(ender);
@@ -208,11 +208,11 @@ scissors.addEventListener('click', () => {
     if (sum >= 5) {
         ender.classList.add('ender');
 
-        if (pwins > cwins && pwins > ties){
+        if (pwins > cwins){
             ender.textContent = 'player wins match!';
-        } else if (cwins > pwins && cwins > ties){
+        } else if (cwins > pwins){
             ender.textContent = 'computer wins match!';
-        } else if (ties > pwins && ties > cwins){
+        } else {
             ender.textContent = "It's a tie match!";
         }
         ending.appendChild(ender);
